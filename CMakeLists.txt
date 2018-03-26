@@ -1,8 +1,8 @@
 cmake_minimum_required (VERSION 3.10)
 
-project(canuby-cmake-test)
+project(cmake-test)
 
 add_library(math src/math.cc)
 
-add_executable(cmake-tutorial src/main.cc)
-target_link_libraries(cmake-tutorial math)
+add_executable(cmake-test src/main.cc)
+target_link_libraries(cmake-test math)
